@@ -5,11 +5,14 @@
   --sea-stone: #407088;
 }
 
-* body {
-  background-color: #a2a8d3;
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: var(--purple-gray);
 }
 
 header {
@@ -18,10 +21,30 @@ header {
     "Lucida Sans", Arial, sans-serif;
   background-color: var(--sea-green);
   color: var(--very-black);
+  width: 100%;
+}
+
+.sidebar {
+  margin: -250px -278px -278px 0;
+  padding: 12px;
+  float: right;
+  width: 20%;
+  height: 50%;
+  border: var(--very-black);
+  box-shadow: 0 4px 8px var(--very-black);
+}
+
+.main-content {
+  font-size: 32px;
+  margin: -320px 284px 284px 0;
+  padding: 12px;
+  float: right;
+  width: 20%;
+  height: 50%;
 }
 
 header nav {
-  padding-top: 15px;
+  padding-top: 32x;
   margin-right: 20px;
   float: right;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -31,7 +54,7 @@ header nav {
 
 header nav ul {
   list-style-type: none;
-  margin-top: -12.3%;
+  margin-top: -6.4%;
 }
 
 header nav ul li {
@@ -41,4 +64,9 @@ header nav ul li {
 
 a {
   color: var(--very-black);
+}
+
+img {
+  height: auto;
+  max-width: 35%;
 }
