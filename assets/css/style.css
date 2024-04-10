@@ -13,6 +13,7 @@
 
 body {
   background-color: #dbd8e3;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -70,11 +71,10 @@ figure img {
 }
 
 a img {
-  max-height: 42%;
-  max-width: 22%;
+  max-height: 370px;
+  max-width: 280px;
    display: flex;
   justify-content: center;
-  margin-left: 52px
 }
 
 .content {
@@ -98,6 +98,24 @@ h2 {
   font-size: 50px;
 }
 
+#work {
+  display: flex;
+  flex-wrap: wrap;
+justify-content: space-evenly;
+width: 100%;
+}
+
+.coming-soon{
+height: 380px;
+width: 410px;
+}
+
+#about-me{
+  text-align: left;
+  border: solid red;
+  width:90%;
+}
+
 @media screen and (max-width: 768px) {
   body,
   header,
@@ -107,3 +125,4 @@ h2 {
   .sidebar {
     flex-direction: column;
   }
+}
