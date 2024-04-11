@@ -114,26 +114,39 @@ h2 {
 #about-me {
   text-align: left;
   border: solid red;
-  width: 100%;
+  width: 79%;
+  font-size: 18px;
 }
 
 #contact-me {
   text-align: center;
-  font-size: 22px;
+  font-size: 26px;
   border: solid red;
-  width: 100%;
+  width: 76%;
+}
+
+.github-profile-pic {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #resume {
+  font-size: 26px;
   width: 100%;
   text-align: center;
   border: solid red;
 }
 
-.coming-soon {
+.resume-pic {
   height: 380px;
   width: 280px;
   border: solid red;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 768px) {
