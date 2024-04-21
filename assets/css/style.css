@@ -71,11 +71,12 @@ figure img {
 }
 
 a img {
-  height: 380px;
-  width: 250px;
+  height: 404px;
+  width: 294px;
   display: flex;
   justify-content: center;
 }
+
 /* Applied this above to the images to ensure they flexibly adjust with the page*/
 .content {
   display: flex;
@@ -106,8 +107,9 @@ h2 {
 }
 
 .prework-study-guide {
-  height: 380px;
-  width: 280px;
+  height: 340px;
+  width: 240px;
+  margin-top: 28%;
 }
 
 #about-me {
@@ -120,6 +122,22 @@ h2 {
   text-align: center;
   font-size: 26px;
   width: 100%;
+}
+
+/*New ID for css styling of github profile pic*/
+#change {
+  height: 340px;
+  width: 240px;
+}
+
+/*New ID for css styling of horiseon-refractory-code project title text*/
+#horiseon-title {
+  font-size: 26px;
+}
+
+/*New ID for css styling of prework-study-guide project title text*/
+#prework-study-guide-title {
+  font-size: 26px;
 }
 
 .github-profile-pic {
@@ -136,8 +154,8 @@ h2 {
 }
 
 .resume-pic {
-  height: 380px;
-  width: 280px;
+  height: 340px;
+  width: 240px;
   display: flex;
   justify-content: center;
   margin-left: auto;
